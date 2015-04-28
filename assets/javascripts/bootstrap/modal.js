@@ -49,6 +49,8 @@
   }
 
   Modal.prototype.show = function (_relatedTarget) {
+    var tester = 1
+    tester = tester + 1
     var that = this
     var e    = $.Event('show.bs.modal', { relatedTarget: _relatedTarget })
 
